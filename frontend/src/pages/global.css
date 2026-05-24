@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #0f172a, #1e293b);
+  min-height: 100vh;
+  color: white;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+.homepage {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.main-title {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 16px;
+  color: white;
+}
+
+.main-subtitle {
+  color: #dbeafe;
+  line-height: 1.8;
+  font-size: 1.1rem;
+}
+
+.feature-card {
+  background: rgba(255, 255, 255, 0.08) !important;
+  border: 1px solid rgba(255, 255, 255, 0.12) !important;
+  border-radius: 18px !important;
+  color: white !important;
+}
+
+.feature-card .card-title,
+.feature-card .card-text {
+  color: white !important;
+}
